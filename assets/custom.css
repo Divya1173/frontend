@@ -29,13 +29,13 @@
   justify-content: center
 }
 
-.header-default-icons {
+/* .header-default-icons {
   border: 1px solid #000;
   border-radius: 20px;
   margin-left: 16px;
   display: flex;
   align-items: center;
-}
+} */
 
 /* Code to disable cart */
 .header__icon--cart {
