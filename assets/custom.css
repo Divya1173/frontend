@@ -1,0 +1,48 @@
+.header{
+  max-width: none
+}
+
+.header-link{
+  color: #212529;
+  font-family: "Nunito Sans", sans-serif !important;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #334FB4; /* Border color */    
+  padding: 0.5rem 1rem 0.5rem 1rem  !important;
+  display: flex;
+  align-items: center; 
+  margin-right: 16px;
+}
+
+.header-link:hover {
+  color: #fff;
+  background: #334FB4; /* Background color on hover */
+}
+
+@media (max-width: 767px){
+.hide_on_mobile{display:none; visibility:hidden;}
+}
+
+.header-icon {
+  display: flex;
+  align-items: center; 
+  justify-content: center
+}
+
+.header-default-icons {
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Code to disable cart */
+.header__icon--cart {
+  display: none;
+  visibility: hidden;
+}
+
+.header__icons {
+  padding-right: 0rem;
+}
