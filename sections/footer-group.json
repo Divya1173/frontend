@@ -42,21 +42,13 @@
             "image_width": 550,
             "alignment": "right"
           }
-        },
-        "text_TwMEbV": {
-          "type": "text",
-          "settings": {
-            "heading": "Address",
-            "subtext": "<p>93H4+GCW, Badshahpur Sohna Rd Hwy, Sector 4, Gurugram, Haryana 122018<\/p>"
-          }
         }
       },
       "block_order": [
         "link_list_EGXVVX",
         "link_list_aXfxGJ",
         "link_list_tzExYC",
-        "image_q4Cih8",
-        "text_TwMEbV"
+        "image_q4Cih8"
       ],
       "settings": {
         "color_scheme": "scheme-2",
