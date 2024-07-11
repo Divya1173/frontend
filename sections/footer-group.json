@@ -11,6 +11,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_fTGzYK": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -66,6 +75,7 @@
     }
   },
   "order": [
+    "custom_liquid_fTGzYK",
     "footer"
   ]
 }
