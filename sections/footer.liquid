@@ -153,27 +153,6 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
-                  {% if section.blocks.size > 0 %}
-                    <div class="footer-blocks">
-                      {% for block in section.blocks %}
-                        {% case block.type %}
-                          {% when 'image' %}
-                            <div class="footer-image-block" style="text-align: {{ block.settings.alignment }}">
-                              <img src="{{ block.settings.image | img_url: '550x' }}" alt="">
-                              {% if block.settings.address_heading %}
-                                <h3>{{ block.settings.address_heading }}</h3>
-                              {% endif %}
-                              {% if block.settings.address_text %}
-                                <p>{{ block.settings.address_text }}</p>
-                              {% endif %}
-                            </div>
-                          {% else %}
-                            <!-- handle other block types -->
-                        {% endcase %}
-                      {% endfor %}
-                    </div>
-                  {% endif %}
-
                 {%- endcase -%}
               </div>
             {%- endfor -%}
