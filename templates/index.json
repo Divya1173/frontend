@@ -76,45 +76,6 @@
         "padding_bottom": 36
       }
     },
-    "review-slider": {
-      "type": "review-slider",
-      "blocks": {
-        "block1": {
-          "type": "review",
-          "settings": {
-            "name": "John Doe",
-            "stars": "★★★★☆",
-            "reviewed_on": "2023-01-01",
-            "content": "Great product!"
-          }
-        },
-        "block2": {
-          "type": "review",
-          "settings": {
-            "name": "Jane Smith",
-            "stars": "★★★★★",
-            "reviewed_on": "2023-02-15",
-            "content": "Excellent service."
-          }
-        },
-        "block3": {
-          "type": "review",
-          "settings": {
-            "name": "Alice Johnson",
-            "stars": "★★★☆☆",
-            "reviewed_on": "2023-03-20",
-            "content": "Good quality, but a bit pricey."
-          }
-        }
-      },
-      "block_order": [
-        "block1",
-        "block2",
-        "block3"
-      ],
-      "settings": {
-      }
-    },
     "collapsible_content_t6wXAb": {
       "type": "collapsible-content",
       "blocks": {
@@ -150,7 +111,6 @@
   "order": [
     "image_banner",
     "featured_collection",
-    "review-slider",
     "collapsible_content_t6wXAb"
   ]
 }
