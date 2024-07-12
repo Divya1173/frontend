@@ -81,7 +81,7 @@
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
       <ul
-        class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--tablet grid--peek{% endif %}"
+        class="slider--everywhere multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop{% if show_mobile_slider %} slider slider--tablet grid--peek{% endif %}"
         id="Slider-{{ section.id }}"
         role="list"
       >
@@ -227,7 +227,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.multicolumn.name",
+  "name": "Testimonials",
   "class": "section",
   "tag": "section",
   "disabled_on": {
@@ -237,8 +237,8 @@
     {
       "type": "inline_richtext",
       "id": "title",
-      "default": "t:sections.multicolumn.settings.title.default",
-      "label": "t:sections.multicolumn.settings.title.label"
+      "default": "Testimonials",
+      "label": "Testimonials"
     },
     {
       "type": "select",
@@ -424,7 +424,7 @@
   "blocks": [
     {
       "type": "column",
-      "name": "t:sections.multicolumn.blocks.column.name",
+      "name": "Testimonials",
       "settings": [
         {
           "type": "image_picker",
@@ -458,7 +458,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Testimonials",
       "blocks": [
         {
           "type": "column"
