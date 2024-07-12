@@ -83,7 +83,7 @@
           "type": "column",
           "settings": {
             "title": "Mridual Naik",
-            "text": "",
+            "text": "<p>⭐⭐⭐⭐⭐ 5\/5 <\/p><p>The pleasure courses from Intimate have been life-changing. They saved my relationship and boosted my confidence. Now, my partner and I are enjoying a healthy lifestyle together.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -91,8 +91,8 @@
         "column_TrpxPf": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Advit Kumar",
+            "text": "<p>⭐⭐⭐⭐⭐ 5\/5 <\/p><p>I recently took some pleasure courses with Intimate, and they have been life-changing. These courses saved my marriage and improved my image in society. The content was insightful and practical, and the instructors were fantastic.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -100,8 +100,26 @@
         "column_LeTFw3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Neeraj Paliwal",
+            "text": "<p>⭐⭐⭐⭐ 4\/5 <br\/><\/p><p>just opted for health course from Intemate to boost my testosterone, I noticed a significant increase in my energy levels and stamina.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FQiBrN": {
+          "type": "column",
+          "settings": {
+            "title": "Karun Naran",
+            "text": "<p>⭐⭐⭐⭐ 4\/5 <br\/><\/p><p>Highly recommend Intimate for anyone looking to strengthen their relationship and personal growth!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Jfcgy6": {
+          "type": "column",
+          "settings": {
+            "title": "Arpit Raj",
+            "text": "<p>⭐⭐⭐⭐ 4\/5 <br\/>The content was insightful and practical, and the instructions were amazing. Highly recommend!<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -110,7 +128,9 @@
       "block_order": [
         "column_VbKcFU",
         "column_TrpxPf",
-        "column_LeTFw3"
+        "column_LeTFw3",
+        "column_FQiBrN",
+        "column_Jfcgy6"
       ],
       "custom_css": [
 
@@ -121,7 +141,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
@@ -131,9 +151,9 @@
         "padding_top": 24,
         "padding_bottom": 24,
         "testimonial_section_background": "#656565",
-        "testimonial_background": "#fff",
+        "testimonial_background": "#ffffff",
         "testimonial_title_color": "#ffffff",
-        "testimonials_text_color": "#000",
+        "testimonials_text_color": "#000000",
         "arrow_color": "#000000",
         "arrow_bg_color": "#ffffff"
       }
