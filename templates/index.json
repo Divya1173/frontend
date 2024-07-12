@@ -76,6 +76,65 @@
         "padding_bottom": 36
       }
     },
+    "testimonials_YQGBxQ": {
+      "type": "testimonials",
+      "blocks": {
+        "column_VbKcFU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TrpxPf": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LeTFw3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VbKcFU",
+        "column_TrpxPf",
+        "column_LeTFw3"
+      ],
+      "settings": {
+        "title": "Google Reviews",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "testimonial_section_background": "#656565",
+        "testimonial_background": "#fff",
+        "testimonial_title_color": "#ffffff",
+        "testimonials_text_color": "#000",
+        "arrow_color": "#000000",
+        "arrow_bg_color": "#ffffff"
+      }
+    },
     "collapsible_content_t6wXAb": {
       "type": "collapsible-content",
       "blocks": {
@@ -111,6 +170,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "testimonials_YQGBxQ",
     "collapsible_content_t6wXAb"
   ]
 }
