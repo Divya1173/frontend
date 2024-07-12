@@ -163,18 +163,19 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a
-                    class="link animate-arrow"
-                    {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.link }}"
-                    {% endif %}
-                  >
-                    {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
-                  >
-                {%- endif -%}
+                  <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
+                      <a
+                          class="button button--primary"
+                          {% if block.settings.link == blank %}
+                          role="link" aria-disabled="true"
+                          {% else %}
+                          href="{{ block.settings.link }}"
+                          {% endif %}
+                      >
+                          {{ block.settings.link_label | escape }}
+                      </a>
+                  </div>
+              {%- endif -%}
               </div>
             </div>
           </li>
@@ -182,7 +183,7 @@
       </ul>
 
       {%- if show_mobile_slider -%}
-        <div class="slider-buttons large-up-hide">
+        <div class="slider-buttons {% if section.blocks.size < 5%} large-up-hide{% endif %}{% if section.blocks.size <= 3%} medium-hide{% endif %}">
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -419,7 +420,43 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    }
+    },
+    {
+      "type": "color",
+      "id": "testimonial_section_background",
+      "label": "Section background",
+      "default": "#eaeaea"
+    },
+    {
+        "type": "color",
+        "id": "testimonial_background",
+        "label": "Testimonial background",
+        "default": "#fff"
+    },
+    {
+        "type": "color",
+        "id": "testimonial_title_color",
+        "label": "Title text color",
+        "default": "#000"
+    },
+    {
+        "type": "color",
+        "id": "testimonials_text_color",
+        "label": "Testimonials text color",
+        "default": "#000"
+    },
+    {
+        "type": "color",
+        "id": "arrow_color",
+        "label": "Arrow color",
+        "default": "#fff"
+    },
+    {
+        "type": "color",
+        "id": "arrow_bg_color",
+        "label": "Arrow background",
+        "default": "#000"
+    } 
   ],
   "blocks": [
     {
