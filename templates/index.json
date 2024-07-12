@@ -79,34 +79,19 @@
     "review-slider": {
       "type": "review-slider",
       "blocks": {
-        "block1": {
+        "review_FKmqwC": {
           "type": "review",
           "settings": {
-            "name": "John Doe",
-            "stars": "★★★★☆",
-            "reviewed_on": "2023-01-01",
-            "content": "Great product!"
-          }
-        },
-        "block2": {
-          "type": "review",
-          "settings": {
-            "name": "Jane Smith",
-            "stars": "★★★★★",
-            "reviewed_on": "2023-02-15",
-            "content": "Excellent service."
-          }
-        },
-        "block3": {
-          "type": "review",
-          "settings": {
-            "name": "Alice Johnson",
-            "stars": "★★★☆☆",
-            "reviewed_on": "2023-03-20",
-            "content": "Good quality, but a bit pricey."
+            "name": "Divya Mohan",
+            "stars": "****",
+            "reviewed_on": "24th Aug",
+            "content": "Hello"
           }
         }
       },
+      "block_order": [
+        "review_FKmqwC"
+      ],
       "settings": {
       }
     },
