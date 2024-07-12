@@ -1,5 +1,42 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+<style>
+.custom-testimonial-slider.multicolumn .title,
+.custom-testimonial-slider.multicolumn .subtitle {
+  color: {{ section.settings.testimonial_title_color }}
+}
+.custom-testimonial-slider .multicolumn-card__info h3,
+.custom-testimonial-slider .multicolumn-card__info p {
+  color: {{ section.settings.testimonials_text_color }};
+}
+.custom-testimonial-slider.multicolumn {
+  padding: 35px 0px;
+  background: {{ section.settings.testimonial_section_background }};
+}
+.custom-testimonial-slider .multicolumn-list__item {
+  background: {{ section.settings.testimonial_background }};
+}
+.custom-testimonial-slider .slider-buttons .slider-button.slider-button--next,
+.custom-testimonial-slider .slider-buttons .slider-button.slider-button--prev {
+  background: {{ section.settings.arrow_bg_color }};
+  border-radius: 50%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.custom-testimonial-slider .slider-buttons .slider-button.slider-button--next svg,
+.custom-testimonial-slider .slider-buttons .slider-button.slider-button--prev svg {
+  color: {{ section.settings.arrow_color }};
+}
+.custom-testimonial-slider .slider.slider--mobile {
+  overflow-y: hidden;
+  column-gap: unset;
+}
+.custom-testimonial-slider .slider-buttons {
+  display: flex !important;
+}
+</style>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
