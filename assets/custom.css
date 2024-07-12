@@ -47,20 +47,3 @@
   padding-right: 0rem;
 }
 
-.review-slider {
-  overflow: hidden;
-  width: 100%;
-}
-
-.review-track {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.review-card {
-  flex: 0 0 33.33%;
-  box-sizing: border-box;
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin: 10px;
-}
