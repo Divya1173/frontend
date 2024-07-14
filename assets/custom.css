@@ -1,9 +1,13 @@
 .header{
   max-width: none
 }
+
 header-custom-logo {
   color: #fff;
   font-family: "Nunito Sans", sans-serif !important;
+  font-size: 3rem; /* Adjust the size as needed */
+  font-weight: bold;
+  letter-spacing: 1px; /* Optional: Adjust spacing between letters */
 }
 
 .header-link{
