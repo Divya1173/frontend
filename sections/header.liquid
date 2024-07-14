@@ -179,10 +179,11 @@
                   preload: true
                 }} -->
               </div>
-            {%- else -%}
-              <span class="header-custom-logo">{{ shop.name }}</span>
+            <!-- {%- else -%} -->
+              <!-- <span class="header-custom-logo">{{ shop.name }}</span> -->
             {%- endif -%}
           </a>
+          <span class="header-custom-logo">{{ shop.name }}</span>
       {%- if request.page_type == 'index' -%}
         </h1>
       {%- endif -%}
