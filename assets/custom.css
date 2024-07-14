@@ -3,11 +3,11 @@
 }
 
 .header-link{
-  color: #212529;
+  color: #ffd700;
   font-family: "Nunito Sans", sans-serif !important;
   text-decoration: none;
   border-radius: 10px;
-  border: 2px solid #334FB4; /* Border color */    
+  border: 2px solid #000; /* Border color */    
   padding: 0.5rem 1rem 0.5rem 1rem  !important;
   display: flex;
   align-items: center; 
@@ -16,7 +16,7 @@
 
 .header-link:hover {
   color: #fff;
-  background: #334FB4; /* Background color on hover */
+  background: #000; /* Background color on hover */
 }
 
 @media (max-width: 767px){
