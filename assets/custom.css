@@ -38,13 +38,20 @@
   justify-content: center
 }
 
-.header-default-icons {
+.header-icon img {
+  max-width: 100px; /* Adjust the width as needed */
+  max-height: 100px; /* Adjust the height as needed */
+  width: auto;
+  height: auto;
+}
+
+/* .header-default-icons {
   border: 1px solid #000;
   border-radius: 20px;
   margin-left: 16px;
   display: flex;
   align-items: center;
-}
+} */
 
 /* Code to disable cart */
 .header__icon--cart {
