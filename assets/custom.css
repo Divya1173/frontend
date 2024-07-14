@@ -15,8 +15,8 @@
 }
 
 .header-link:hover {
-  color: #fff;
-  background: #000; /* Background color on hover */
+  color: #000;
+  background: #fff; /* Background color on hover */
 }
 
 @media (max-width: 767px){
