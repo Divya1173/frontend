@@ -261,7 +261,7 @@
       <a class="header-link hide_on_mobile" href="#">DISCOVER YOURSELF</a>
       <a class="header-icon" href="https://chat.whatsapp.com/Kb2zlpSmVgbLcbyiw6TA4n" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0707/3192/3701/files/whatsapp-48.svg?v=1720350236"></a>
       <!-- END CUSTOM HEADER BUTTON -->
-      
+       
       <!-- {% render 'header-search', input_id: 'Search-In-Modal' %} -->
     
       {%- if shop.customer_accounts_enabled -%}
@@ -272,13 +272,15 @@
                 {{ customer | avatar }}
               {%- else -%}
                 <!-- <div class="header-default-icons"> -->
-                {% render 'icon-account' %}
+                <!-- {% render 'icon-account' %} -->
+                <img src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/user.png?v=1720984920">
                 <!-- </div>   -->
               {%- endif -%}
             </account-icon>
           {%- else -%}
             <!-- <div class="header-default-icons"> -->
-              {% render 'icon-account' %}
+              <!-- {% render 'icon-account' %} -->
+              <img src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/user.png?v=1720984920">
             <!-- </div>   -->
           {%- endif -%}
           <span class="visually-hidden">
