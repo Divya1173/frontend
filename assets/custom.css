@@ -1,6 +1,10 @@
 .header{
   max-width: none
 }
+header-custom-logo {
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif !important;
+}
 
 .header-link{
   color: #fff;
