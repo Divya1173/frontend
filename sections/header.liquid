@@ -183,8 +183,8 @@
               <span class="header-custom-logo">{{ shop.name }}</span>
             {%- endif -%}
           </a> -->
-          <a href="{{ routes.root_url }}">
-            <span class="header-custom-logo">{{ shop.name }}</span>
+          <a href="{{ routes.root_url }}" class="header-custom-logo">
+            <span >{{ shop.name }}</span>
           </a>
           
       {%- if request.page_type == 'index' -%}
