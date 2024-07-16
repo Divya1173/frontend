@@ -265,19 +265,19 @@
       <!-- {% render 'header-search', input_id: 'Search-In-Modal' %} -->
     
       {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset header-default-icons">
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header-icon header__icon header__icon--account link focus-inset header-default-icons">
           {%- if section.settings.enable_customer_avatar -%}
             <account-icon>
               {%- if customer and customer.has_avatar? -%}
                 {{ customer | avatar }}
               {%- else -%}
                 <!-- {% render 'icon-account' %} -->
-                <img class="header-icon" src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/icons8-test-account-48.png?v=1721152001">
+                <img src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/icons8-test-account-48.png?v=1721152001">
               {%- endif -%}
             </account-icon>
           {%- else -%}
               <!-- {% render 'icon-account' %} -->
-              <img class="header-icon" src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/icons8-test-account-48.png?v=1721152001"> 
+              <img src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/icons8-test-account-48.png?v=1721152001"> 
           {%- endif -%}
           <span class="visually-hidden">
             {%- liquid
