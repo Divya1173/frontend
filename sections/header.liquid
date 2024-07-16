@@ -271,17 +271,17 @@
               {%- if customer and customer.has_avatar? -%}
                 {{ customer | avatar }}
               {%- else -%}
-                <!-- <div class="header-default-icons"> -->
+                <div class="header-default-icons">
                 <!-- {% render 'icon-account' %} -->
-                <img class="header-icon" src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/user.png?v=1720984920">
-                <!-- </div>   -->
+                <img src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/user.png?v=1720984920">
+                </div>  
               {%- endif -%}
             </account-icon>
           {%- else -%}
-            <!-- <div class="header-default-icons"> -->
+            <div class="header-default-icons">
               <!-- {% render 'icon-account' %} -->
-              <img class="header-icon" src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/user.png?v=1720984920">
-            <!-- </div>   -->
+              <img src="https://cdn.shopify.com/s/files/1/0706/9502/6943/files/user.png?v=1720984920">
+            </div>  
           {%- endif -%}
           <span class="visually-hidden">
             {%- liquid
