@@ -45,6 +45,7 @@
   justify-content: center;
   width: 42px !important;
   height: 42px !important;
+  padding-top: 2px;
 }
 
 /* Code to disable cart */
