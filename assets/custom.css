@@ -40,6 +40,9 @@
 }
 
 .header-icon-default {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
   width: 42px !important;
   height: 42px !important;
 }
