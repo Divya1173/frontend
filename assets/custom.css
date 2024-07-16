@@ -36,15 +36,15 @@
   display: flex;
   align-items: center; 
   justify-content: center;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 .header-icon-default {
   display: flex;
   align-items: center; 
   justify-content: center;
-  width: 44px !important;
-  height: 44px !important;
+  width: 40px !important;
+  height: 40px !important;
 }
 
 /* Code to disable cart */
