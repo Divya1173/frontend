@@ -38,12 +38,12 @@
   justify-content: center
 }
 
-/* .header-icon img {
+.header-icon img {
   max-width: 10px; /* Adjust the width as needed */
   max-height: 10px; /* Adjust the height as needed */
   width: auto;
   height: auto;
-} */
+}
 
 /* .header-default-icons {
   border: 1px solid #000;
