@@ -39,11 +39,6 @@
 }
 
 
-.header-default-icons {
-  display: flex;
-  align-items: center;
-}
-
 /* Code to disable cart */
 .header__icon--cart {
   display: none;
