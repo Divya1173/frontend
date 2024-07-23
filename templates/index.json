@@ -41,11 +41,9 @@
         "button_dQAPic"
       ],
       "custom_css": [
-        ".rounded-section * {border-radius: 15px; overflow: hidden;}",
-        ".rounded-section img {border-radius: 15px;}",
-        ".rounded-section button,.rounded-section input,.rounded-section textarea {border-radius: 15px;}",
-        ".rounded-section .card,.rounded-section .product {border-radius: 15px;}",
-        ".rounded-section * {box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}"
+        ".custom-text-color-section {color: #333333;}",
+        ".custom-text-color-section h1,.custom-text-color-section h2,.custom-text-color-section h3,.custom-text-color-section h4,.custom-text-color-section h5,.custom-text-color-section h6,.custom-text-color-section p,.custom-text-color-section a,.custom-text-color-section span,.custom-text-color-section li,.custom-text-color-section button,.custom-text-color-section input,.custom-text-color-section textarea {color: inherit;}",
+        ".custom-text-color-section a {color: #1a73e8;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design.png",
