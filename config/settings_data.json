@@ -143,7 +143,7 @@
         "type": "marquee",
         "settings": {
           "text": "Free Survey To Discover Yourself !!",
-          "colorBackground": "#ffd700",
+          "colorBackground": "#a0d2eb",
           "colorText": "#000000",
           "link": ""
         }
@@ -177,7 +177,7 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#b0954d",
+          "background": "#e5eaf5",
           "background_gradient": "",
           "text": "#000000",
           "button": "#ffffff",
