@@ -29,9 +29,9 @@
         "button_dQAPic": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "DISCOVER YOURSELF",
             "button_link": "",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
