@@ -22,11 +22,11 @@
   display: flex;
   align-items: center; 
   margin-right: 16px;
+  background: #fff;
 }
 
 .header-link:hover {
   color: #000;
-  background: #fff; /* Background color on hover */
 }
 
 @media (max-width: 767px){
